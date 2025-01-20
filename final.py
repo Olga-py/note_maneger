@@ -1,0 +1,9 @@
+user_name=input('Введите ваше имя: ')
+title1=input('Введите заголовок 1: ')
+title2=input('Введите заголовок 2: ')
+title3=input('Введите заголовок 3: ')
+content=input('Введите описание заметки: ')
+status=input('Введите статус заметки: ')
+created_date=input('Введите дату создания заметки в формате дд-мм-гггг: ')
+issure_date=input('Введите дату истечения заметки в формате дд-мм-гггг : ')
+note=[user_name, [title1, title2,title3], content, status, created_date, issure_date]
