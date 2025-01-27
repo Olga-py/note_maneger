@@ -1,5 +1,7 @@
-a = 3
-while a < 5:
-    titel = input("Введите заголовок заметки/Если заметок больше нет введите 'стоп': ")
-    if titel == 'стоп' :
-        a = 7
+list1 = []
+while True:
+    title = input('Введите заголовок заметки/Если заметок нет введите "стоп": ')
+    list1.append(title)
+    if title == "стоп" :
+        break
+print(*list1[0:-1], sep="\n")
